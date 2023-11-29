@@ -125,7 +125,7 @@ parser.add_argument('--no_auto_skip', default=False, action='store_true')
 parser.add_argument('--custom_downsample', type=int, default=1)
 parser.add_argument('--target_patch_size', type=int, default=-1)
 args = parser.parse_args()
-
+## 我比较好奇你的参数设置，在运行脚本时batch_size是否已经改为1了？
 
 if __name__ == '__main__':
 
